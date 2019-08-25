@@ -1,10 +1,10 @@
-La pagina anterior se ve bastante fea. Vamos a agregarle un poco de estilo.
+La página anterior se ve bastante fea. Vamos a agregarle un poco de estilo.
 En nuestro archivo CSS, escribe algunas reglas para que:
 
-- La pagina tenga un color de fondo
-- Los elementos **h1** tengan algun color
-- Los elementos **h2** tengan algun color
-- Los elementos **p** tengan algun color
+- La página tenga un color de fondo
+- Los elementos **h1** tengan algún color
+- Los elementos **h2** tengan algún color
+- Los elementos **p** tengan algún color
 
 Ayuda
 
@@ -18,7 +18,7 @@ No hace falta que te acuerdes como se escriben todas las reglas, pero te voy dej
 
 ```CSS
 background-color: blue;
-color: #1243ff; /* Tambien podes ser mas especifico de esta forma */
+color: #1243ff; /* Tambien podes ser mas específico de esta forma */
 ```
 
 > Las reglas consisten en el nombre, seguido de dos puntos, seguido del valor y al final cerrarlo con punto y coma.

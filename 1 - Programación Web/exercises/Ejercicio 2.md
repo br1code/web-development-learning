@@ -1,4 +1,4 @@
-Ahora quiero que le hagan unos cambios a la pagina del ejercicio 1.
+Ahora quiero que le hagan unos cambios a la página del ejercicio 1.
 
 - Agregarle un parrafo **p**
 
