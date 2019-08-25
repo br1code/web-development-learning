@@ -16,8 +16,9 @@ Ejemplos
 <h6>Encabezado 6</h6> <!-- Encabezado 6 -->
 <p>Hola</p> <!-- Párrafo -->
 <br> <!-- Salto de linea -->
-<hr> <!-- Linea de separación -->
+<hr> <!-- Linea de división -->
 <button>Tocame uwu</button> <!-- mm un botón -->
 ```
 
 Mas adelante, vamos a ir viendo otros elementos. Ahora vamos a hacer un par de ejercicios con estos elementos.
+

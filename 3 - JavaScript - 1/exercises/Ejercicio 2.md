@@ -4,7 +4,7 @@ Luego de preguntarle el nombre al usuario, queremos preguntarle cuantos años ti
 
 Ayuda:
 
-Para pedir al usuario un valor, por ahora usamos la función ``prompt``.
+Para pedir al usuario un valor, seguimos usando la función ``prompt``.
 Dijimos que esta función devolvía un valor de tipo **string**.
 
 ```js
@@ -41,6 +41,6 @@ var edad = parseInt(prompt('Cuantos años tienes?'));
 // luego se llama a la función parseInt, con el string devuelto por la función prompt
 ```
 
-> Se puede llamar a una función adentro de los parentesis de un llamado a otra función. En realidad se puede llamar a una función en cualquier lugar.
+> Se puede ejecutar una función adentro de los parentesis de un llamado a otra función. En realidad se puede ejecutar una función en cualquier lugar del código.
 
 Si ya pudiste pedirle la edad al usuario, y guardarla en una variale. Sigamos con el siguiente ejercicio.

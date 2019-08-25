@@ -1,4 +1,4 @@
-# Programacion Web
+# Programación Web
 
 La **Programación Web** es una de las "ramas" del desarrollo de software, como lo son el desarrollo de aplicaciones de escritorio, aplicaciones mobile, etc.
 
@@ -30,7 +30,7 @@ Ahora hablemos de este "**código**". Una página web, en la actualidad, consist
 </head>
 <body> <!-- Adentro de la etiqueta body, ira el contenido de nuestra página  -->
     <h1>Hola!</h1>
-    <script src="app.js"></script> <!-- Agregamos nuestro archivo de Javascript  -->
+    <script src="./app.js"></script> <!-- Agregamos nuestro archivo de Javascript  -->
 </body>
 </html>
 ```

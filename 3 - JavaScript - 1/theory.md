@@ -12,9 +12,7 @@ Pero primero vayamos con lo primero, **declarar una variable**.
 
 Una variable es un valor que se guardará en la memoria y que le podes dar un nombre para identificarlo. Por ejemplo, si necesitas almacenar el nombre de tu gato para luego utilizarlo varias veces durante tu página, lo ideal es declarar una variable con el valor, con un nombre relacionado al mismo.
 
-> Para practicar, vamos a escribir código javascript en la **consola** de un navegador.
-
-Ejemplo
+> Para practicar, podemos usar la consola de un navegador para escribir código javascript.
 
 ```js
 // Declarar una variable consiste en la palabra *var*, 
@@ -40,6 +38,8 @@ var mensaje = 'Plata o Plomo';
 // La utilizamos en otro lugar del código. El valor está guardado en memoria.
 alert(mensaje);
 ```
+
+> alert es una función que muestra una alerta con un mensaje. Mas tarde vamos a saber que es una función
 
 Una variable luego de inicializarse, puede sobreescribir su valor. Por ejemplo:
 
@@ -92,7 +92,7 @@ alert(mensaje);
 ```
 
 ### Int (Enteros/Números enteros)
-Un ``int`` es un número sin decimales. Es uno de los tipos de datos más utilizado. Con los ``ìnt`` se pueden utilizar los operadores aritméticos para realizar sumas, restas, divisiones, etc.
+Un ``int`` es un número sin decimales. Es uno de los tipos de datos más utilizados. Con los ``int`` se pueden utilizar los operadores aritméticos para realizar sumas, restas, divisiones, etc.
 
 ```js
 var numero = 5;
@@ -105,11 +105,11 @@ var numeroDos = 8;
 
 var suma = numeroUno + numeroDos;
 
-// Muestra una alerta con el valor: 5
+// Muestra una alerta con el valor: 13
 alert(suma);
 ```
 
-> Si, la función **alert** tambien puede recibir un número. Lo interpretará como un string '5'.
+> Si, la función **alert** tambien puede recibir un número. Lo interpretará como un string '13'.
 
 Otros ejemplos
 
@@ -122,6 +122,7 @@ var multiplicacion = numeroUno * numeroDos;
 var division = numeroUno / numeroDos;
 
 numeroUno = numeroUno + 1; // numeroUno ahora tiene como valor 6
+numeroUno += 1; // Este es una atajo a la linea de arriba
 numeroUno = numeroUno - 2; // numeroUno ahora tiene como valor 4
 ```
 
@@ -175,7 +176,7 @@ var numeroDos = 8;
 numeroUno > numeroDos; // false
 numeroUno < numeroDos; // true
 numeroUno >= numeroDos; // false
-numeroUno <= numeroDos; // false
+numeroUno <= numeroDos; // true
 numeroUno == numeroDos; // false
 
 // El operador de Igual también se puede usar con strings
