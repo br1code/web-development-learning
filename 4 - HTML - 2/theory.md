@@ -41,7 +41,7 @@ Si en vez de un texto, agregas una etiqueta ``img``, la imagen actuará como un 
 </a>
 ```
 
-Los links se pueden usar de un montón de formas, pero las vamos a ver en otro momento.
+Los links se pueden usar de un montón de formas, como por ejemplo para **navegar entre páginas** (archivos html). En la sección de ejercicios vamos a ver como se hace esto.
 
 ## Tablas
 
@@ -68,7 +68,7 @@ El contenido de una tabla, se define generalmente con dos etiquetas.
 
 ```html
 <table>
-    <!-- Dentro de la etiqueta thead, definimos las columnas de encabezado -->
+    <!-- Dentro de la etiqueta thead, definimos la fila con las columnas de encabezado -->
     <thead>
     
     </thead>
@@ -84,7 +84,7 @@ Ahora bien, para agregar filas (row) a nuestra tabla, se utiliza la etiqueta ``t
 
 ```html
 <table>
-    <!-- Dentro de la etiqueta thead, definimos las columnas de encabezado -->
+    <!-- Dentro de la etiqueta thead, definimos la fila con las columnas de encabezado -->
     <thead>
         <tr> <!-- Esta es una fila nueva -->
         
@@ -113,7 +113,7 @@ Vamos a escribir la tabla de productos que vimos recién, en HTML.
 ```html
 <table>
 
-    <!-- Dentro de la etiqueta thead, definimos las columnas de encabezado -->
+    <!-- Dentro de la etiqueta thead, definimos la fila con las columnas de encabezado -->
     <thead>
         <tr> <!-- Esta es una fila nueva -->
             <th>Producto</th> 
