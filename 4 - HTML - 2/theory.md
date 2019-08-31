@@ -60,53 +60,87 @@ Para crear una tabla, se utiliza la etiqueta ``table```.
 </table>
 ```
 
-Ahora bien, para agregar filas (row) a nuestra tabla, se utiliza la etiqueta ``tr``.
+El contenido de una tabla, se define generalmente con dos etiquetas. 
+
+``thead`` para definir la fila de columnas de encabezado (como lo son **Produto**, **Stock**, **Precio Minorista** y **Precio Mayorista**). (thead = cabeza tabla)
+
+``tbody`` para definir las filas de columnas del contenido de la tabla. (cuerpo = tabla)
 
 ```html
 <table>
-    <tr>
+    <!-- Dentro de la etiqueta thead, definimos las columnas de encabezado -->
+    <thead>
+    
+    </thead>
 
-    </tr>
+    <!-- Dentro de la etiqueta tbody, agregamos las filas de contenido de la tabla -->
+    <tbody>
+
+    </tbody>
+</table>
+```
+
+Ahora bien, para agregar filas (row) a nuestra tabla, se utiliza la etiqueta ``tr``. Sirven para agregar filas tanto en el encabezado como en el cuerpo de la tabla. (``tr`` = table row = fila de tabla)
+
+```html
+<table>
+    <!-- Dentro de la etiqueta thead, definimos las columnas de encabezado -->
+    <thead>
+        <tr> <!-- Esta es una fila nueva -->
+        
+        </tr>
+    </thead>
+
+    <!-- Dentro de la etiqueta tbody, agregamos las filas de contenido de la tabla -->
+    <tbody>
+        <tr> <!-- Esta es una fila nueva -->
+        
+        </tr>
+    </tbody>
 </table>
 ```
 
 Esto va a crear una fila nueva, pero para que podamos ver "algo", necesitamos agregarle columnas. Para esto se utilizan las etiquetas ``th`` (table head / encabezado de tabla) y ``td`` (table data-cell / dato o celda de tabla).
 
-Los elementos ``th`` se usan para agregar una columna de tipo encabezado (como lo son **Produto**, **Stock**, **Precio Minorista** y **Precio Mayorista**).
+Los elementos ``th`` se usan para agregar una columna de tipo encabezado (como lo son **Produto**, **Stock**, **Precio Minorista** y **Precio Mayorista**) dentro del encabezado de la tabla ``thead``.
 
-Los elementos ``td`` se usan para agregar una columna de "dato" o contenido.
+Los elementos ``td`` se usan para agregar una columna de "dato" o contenido dentro del cuerpo de la tabla ``tbody``.
 
-Estos elementos se agregan dentro de una fila ``td``, uno seguido del otro. Estos terminan definiendo el orden de las columnas.
+Estos elementos se agregan dentro de una fila ``tr``, uno seguido del otro. Estos terminan definiendo el orden de las columnas.
 
 Vamos a escribir la tabla de productos que vimos recién, en HTML.
 
 ```html
 <table>
 
-    <!-- La primer fila, la usamos para definir las columnas de encabezado -->
-    <tr>
-        <th>Producto</th>
-        <th>Stock</th>
-        <th>Precio Mayorista</th>
-        <th>Precio Minorista</th>
-    </tr>
+    <!-- Dentro de la etiqueta thead, definimos las columnas de encabezado -->
+    <thead>
+        <tr> <!-- Esta es una fila nueva -->
+            <th>Producto</th> 
+            <th>Stock</th> <!-- Cada th es una columna -->
+            <th>Precio Mayorista</th>
+            <th>Precio Minorista</th>
+        </tr>
+    </thead>
 
-    <!-- Las demás filas, las usamos para agregar el contenido de la tabla -->
-    <tr>
-        <td>Pepsi</td>
-        <td>34</td>
-        <td>$14.50</td>
-        <td>$13.00</td>
-    </tr>
+    <!-- Dentro de la etiqueta tbody, agregamos las filas de contenido de la tabla -->
+    <tbody>
+        <tr> <!-- Esta es una fila nueva -->
+            <td>Pepsi</td>
+            <td>34</td> <!-- Cada td es una columna -->
+            <td>$14.50</td>
+            <td>$13.00</td>
+        </tr>
 
-    <tr>
-        <td>Monster</td>
-        <td>3</td>
-        <td>$10.00</td>
-        <td>$8.50</td>
-    </tr>
+        <tr> <!-- Esta es una fila nueva -->
+            <td>Monster</td>
+            <td>3</td>
+            <td>$10.00</td>
+            <td>$8.50</td>
+        </tr>
+    </tbody>
 
 </table>
 ```
 
-En otro momento vamos a ver como personalizar las tablas.
+En otro momento vamos a ver como personalizar las tablas. Ya que asi como se ven por defecto, no son muy lindas. Las tablas se usan muchísimo en las páginas web.
