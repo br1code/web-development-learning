@@ -4,7 +4,7 @@ La **Programación Web** es una de las "ramas" del desarrollo de software, como 
 
 En resumen, por ahora vamos a limitar a la Programación Web a **"el desarrollo de páginas web"**. Mas adelante se van a dar cuenta que no es solo esto, pero para empezar es suficiente.
 
-No creo que haga falta explicar que es una página web, ya que las usan a diario. Pero lo que si se van a dar cuenta facil es que, acceden a una página web desde un **navegador** (ya sea chrome, internet explorer, mozilla, hasta un navegador de tu celular como chrome), y el navegador es quien se encarga de **interpretar** el "código" y mostrar la página como se debe. 
+No creo que haga falta explicar que es una página web, ya que las usan a diario. Pero lo que si se van a dar cuenta facil es que, acceden a una página web desde un **navegador** (ya sea Chrome, Internet Explorer, Mozilla, hasta un navegador de tu celular como Chrome), y el navegador es quien se encarga de **interpretar** el "código" y mostrar la página como se debe. 
 
 Ahora hablemos de este "**código**". Una página web, en la actualidad, consiste de tres principales técnologias/lenguajes.
 
@@ -38,7 +38,7 @@ Ahora hablemos de este "**código**". Una página web, en la actualidad, consist
 #### Ejemplo: style.css
 
 ```CSS
-/* Regla que define que cualquier elemento h1 tendrá su texto de color rojo */
+/* Regla que define que cualquier elemento H1 tendrá su texto de color rojo */
 h1 {
     color: red;
 }
@@ -54,7 +54,7 @@ alert('Que onda?');
 
 Al abrirlo, nos vamos a encontrar con una página con un título 'Mi Página Web', un texto encabezado 'Hola!'. Esto es lo que definimos en nuestro archivo de HTML.
 
-Ademas, seguramente salió una alerta con un mensaje. Exactamente como lo definimos en nuestro archivo javascript.
+Ademas, seguramente salió una alerta con un mensaje. Exactamente como lo definimos en nuestro archivo Javascript.
 
 Y por si no te habías dado cuenta, en nuestro archivo CSS definimos una regla para que cualquier elemento del tipo H1 dentro de nuestra página tenga el color rojo.
 

@@ -32,7 +32,7 @@ Ejemplo
 <img src="urlDeLaImagenAMostrar">
 ```
 
-Ahora que sabemos como decirle al elemento ``<img>`` cual imágen mostrar, busquen en google una imagen que represente el poder de los gatos ante los perros.
+Ahora que sabemos como decirle al elemento ``<img>`` cual imágen mostrar, busquen en Google una imagen que represente el poder de los gatos ante los perros.
 
 Por ejemplo busquen: **cat hits dog**.
 
