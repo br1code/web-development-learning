@@ -120,7 +120,7 @@ for (var index = 0; index < 2; aumento de contador) {
 3 - **Aumento de contador**: así como explicamos lo de los bucles infinitos y que debemos evitarlos, generalmente le aumentamos ``1`` al contador para que en algún momento la condición de como resultado ``false``. Este aumento se ejecuta cada vez que termina una iteración del bucle.
 
 ```js
-for (var index = 0; index < 2; index = index + 1) {
+for (var index = 0; index < 2; index++) {
     // código a ejecutar
 }
 ```
@@ -128,7 +128,7 @@ for (var index = 0; index < 2; index = index + 1) {
 4 - **Código a ejecutar**: acá se escribe el código que se va a ejecutar en cada iteración del bucle. Acá adentro tenemos acceso a la variable ``index``, el cual en cada iteración tendrá como valor el contador actual. Esta variable de contador nos va a servir más tarde cuando intentemos recorrer una lista, accediendo elemento por elemento según su posición.
 
 ```js
-for (var index = 0; index < 2; index = index + 1) {
+for (var index = 0; index < 2; index++) {
     alert('El valor actual del contador es ' + index);
 }
 ```
@@ -164,7 +164,6 @@ alert('ke wea hermano');
 - La ejecución del código dentro de las llaves terminó, por lo tanto **la iteración del ``for`` es finalizada**. Se le aumenta ``1`` al contador. Ahora la variable ``index`` tiene como valor ``2``.
 - Se vuelve a **evaluar la condición**: ``index < 2`` = la variable ``index`` ahora tiene como valor 2 = ``2 < 2`` da como resultado ``false``, **se da como finalizado el bucle ``for``**.
 - Luego de finalizar el ``for``, el código debe seguir. Por último se ejecuta el ``alert`` con el mensaje 'ke wea hermano'.
-
 
 ---
 

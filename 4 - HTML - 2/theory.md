@@ -52,7 +52,7 @@ Los links se pueden usar de un montón de formas, como por ejemplo para **navega
 
 Las tablas son, tablas .. Te permiten definir columnas y filas, son totalmente personalizables (estilo) y son muy faciles de crear.
 
-Para crear una tabla, se utiliza la etiqueta ``table```.
+Para crear una tabla, se utiliza la etiqueta ``table``.
 
 ```html
 <table>
