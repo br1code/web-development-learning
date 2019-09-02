@@ -12,7 +12,7 @@ Pero primero vayamos con lo primero, **declarar una variable**.
 
 Una variable es un valor que se guardará en la memoria y que le podes dar un nombre para identificarlo. Por ejemplo, si necesitas almacenar el nombre de tu gato para luego utilizarlo varias veces durante tu página, lo ideal es declarar una variable con el valor, con un nombre relacionado al mismo.
 
-> Para practicar, podemos usar la consola de un navegador para escribir código javascript.
+> Para practicar, podemos usar la consola de un navegador para escribir código Javascript.
 
 ```js
 // Declarar una variable consiste en la palabra *var*, 
