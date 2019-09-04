@@ -6,8 +6,8 @@ El contenido teórico está escrito en formado .md (Markdown). Recomiendo utiliz
 
 ### Encuestas
 
-[Preguntas Primera Semana](https://forms.gle/gKUy6fMuBYg97QoZ8)
-[Preguntas Segunda Semana](https://forms.gle/qv2E8DXu6bUzqB6W8)
+- [Preguntas Primera Semana](https://forms.gle/gKUy6fMuBYg97QoZ8)
+- [Preguntas Segunda Semana](https://forms.gle/qv2E8DXu6bUzqB6W8)
 
 ### Ejercicios
 
