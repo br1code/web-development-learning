@@ -11,4 +11,4 @@ El contenido teórico está escrito en formado .md (Markdown). Recomiendo utiliz
 
 ### Ejercicios
 
-Los ejercicios se irán actualizando cada varios dias. Se encuentran en la carpetae **Exercises**.
+Los ejercicios se irán actualizando cada varios dias. Se encuentran en la carpeta **Exercises**.

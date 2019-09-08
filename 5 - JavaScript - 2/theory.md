@@ -145,7 +145,7 @@ El proceso del bucle ``for`` a nivel de ejecución (a medida que se va ejecutand
 Veamos un ejemplo paso a paso:
 
 ```js
-for (var index = 0; index < 2; index = index + 1) {
+for (var index = 0; index < 2; index++) {
     alert('El valor actual del contador es ' + index);
 }
 
