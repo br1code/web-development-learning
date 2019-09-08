@@ -50,7 +50,7 @@ var lista = ['cassie', 'sultan', 'rakhan', 'kaisa'];
 lista.length // 4
 ```
 
-> Que es una propiedad? Ya lo vamos a entender cuando lleguemos a ver **Objetos**. Por ahora quedense con que algunos tipos de datos como los **arrays**, son **Objetos**. Y los **Objetos** pueden contener variables (propiedades) y funciones dentro. ``length`` es una **propiedad** que tienen todos los **arrays**. Para acceder a una **propiedad** o una **función** de un objeto, se utiliza el ``.`` seguido del nombre.
+> Que es una propiedad? Ya lo vamos a entender cuando lleguemos a ver **Objetos**. Por ahora quédense con que algunos tipos de datos como los **arrays**, son **Objetos**. Y los **Objetos** pueden contener variables (propiedades) y funciones dentro. ``length`` es una **propiedad** que tienen todos los **arrays**. Para acceder a una **propiedad** o una **función** de un objeto, se utiliza el ``.`` seguido del nombre.
 
 ---
 
@@ -131,7 +131,7 @@ alert(lista); // Muestra 'cassie', 'rakhan', 'kaisa'
 
 Veamos una explicación del proceso de eliminar a sultan.
 
-Principalmente la lista se veía asi:
+Principalmente la lista se veía así:
 
 | Índice | ``0``        | ``1``        | ``2``        | ``3``       |
 | ------ | ------------ | ------------ | ------------ | ----------- |
@@ -232,7 +232,7 @@ for (var index = 0; index < cantidadAmigosAIngresar; index++) {
 }
 ```
 
-Si por ejemplo, ``cantidadAmigosAIngresar`` tiene como valor ``4``:  este bucle ``for`` se ejecutará ``4`` veces. Permitiendole agregar ``4`` amigos al **array**.
+Si por ejemplo, ``cantidadAmigosAIngresar`` tiene como valor ``4``:  este bucle ``for`` se ejecutará ``4`` veces. Permitiéndole agregar ``4`` amigos al **array**.
 
 Al terminar el bucle ``for``, ya tendremos nuestro **array** de amigos con sus respectivos elementos.
 

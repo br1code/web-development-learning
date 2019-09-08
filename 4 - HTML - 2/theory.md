@@ -4,7 +4,7 @@ En este módulo vamos a ver algunos elementos nuevos.
 
 ## Links
 
-Empezemos con los links.
+Empecemos con los links.
 
 Para que sirven? Para darles click y que te redireccione a otra página.
 
@@ -31,7 +31,7 @@ Por defecto, al darle click va a abrir el link en la misma pestaña. Podemos cam
 
 > "_blank" indica que el link se abrirá en una nueva pestaña.
 
-Tambien podés usar los links de la siguiente forma:
+También podes usar los links de la siguiente forma:
 
 Si en vez de un texto, agregas una etiqueta ``img``, la imagen actuará como un link! Al darle click a la imagen, te redireccionará a la página.
 
@@ -41,7 +41,7 @@ Si en vez de un texto, agregas una etiqueta ``img``, la imagen actuará como un 
 </a>
 ```
 
-Los links se pueden usar de un montón de formas, como por ejemplo para **navegar entre páginas** (archivos html). En la sección de ejercicios vamos a ver como se hace esto.
+Los links se pueden usar de un montón de formas, como por ejemplo para **navegar entre páginas** (archivos HTML). En la sección de ejercicios vamos a ver como se hace esto.
 
 ## Tablas
 
@@ -50,7 +50,7 @@ Los links se pueden usar de un montón de formas, como por ejemplo para **navega
 |  Pepsi | 34  |  $14.50 |  $13.00 |
 |  Monster | 3  |  $10.00 |  $8.50 |
 
-Las tablas son, tablas .. Te permiten definir columnas y filas, son totalmente personalizables (estilo) y son muy faciles de crear.
+Las tablas son, tablas .. Te permiten definir columnas y filas, son totalmente personalizables (estilo) y son muy fáciles de crear.
 
 Para crear una tabla, se utiliza la etiqueta ``table``.
 
@@ -102,7 +102,7 @@ Ahora bien, para agregar filas (row) a nuestra tabla, se utiliza la etiqueta ``t
 
 Esto va a crear una fila nueva, pero para que podamos ver "algo", necesitamos agregarle columnas. Para esto se utilizan las etiquetas ``th`` (table head / encabezado de tabla) y ``td`` (table data-cell / dato o celda de tabla).
 
-Los elementos ``th`` se usan para agregar una columna de tipo encabezado (como lo son **Produto**, **Stock**, **Precio Minorista** y **Precio Mayorista**) dentro del encabezado de la tabla ``thead``.
+Los elementos ``th`` se usan para agregar una columna de tipo encabezado (como lo son **Producto**, **Stock**, **Precio Minorista** y **Precio Mayorista**) dentro del encabezado de la tabla ``thead``.
 
 Los elementos ``td`` se usan para agregar una columna de "dato" o contenido dentro del cuerpo de la tabla ``tbody``.
 
@@ -143,4 +143,4 @@ Vamos a escribir la tabla de productos que vimos recién, en HTML.
 </table>
 ```
 
-En otro momento vamos a ver como personalizar las tablas. Ya que asi como se ven por defecto, no son muy lindas. Las tablas se usan muchísimo en las páginas web.
+En otro momento vamos a ver como personalizar las tablas. Ya que así como se ven por defecto, no son muy lindas. Las tablas se usan muchísimo en las páginas web.

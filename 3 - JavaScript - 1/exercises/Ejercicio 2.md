@@ -12,11 +12,11 @@ var edad = prompt('Cuantos años tienes?');
 // edad ahora es una variable de tipo string, con el valor ingresado por el usuario
 ```
 
-Pero en realidad lo queremos guardar como tipo de dato **int** (número entero). Cómo podemos hacer esto?
+Pero en realidad lo queremos guardar como tipo de dato **number** (número entero). Cómo podemos hacer esto?
 
-Vamos a tener que usar una función, que convierta un tipo de dato en otro tipo de dato. Especificamente queremos que convierta un **string** en un **int**.
+Vamos a tener que usar una función, que convierta un tipo de dato en otro tipo de dato. Específicamente queremos que convierta un **string** en un **number**.
 
-Para esto, podemos usar la función ``parseInt``. La cual recibe un valor como argumento, y devuelve un **int** con el valor convertido.
+Para esto, podemos usar la función ``parseInt``. La cual recibe un valor como argumento, y devuelve un **number** con el valor convertido.
 
 Ejemplos
 
@@ -26,7 +26,7 @@ var numero = parseInt('5');
 // numero ahora es una variable de tipo int, con valor 5.
 ```
 
-Sabiendo esto, podemos convertir el valor ingresado por el usuario a un **int**.
+Sabiendo esto, podemos convertir el valor ingresado por el usuario a un **number**.
 
 ```js
 var edad = prompt('Cuantos años tienes?');
@@ -34,13 +34,13 @@ var edadConvertida = parseInt(edad);
 // edadConvertida ahora es una variable de tipo int, con el valor convertido ingresado por el usuario
 ```
 
-Tambien podés hacer todo en una misma línea
+También puedes hacer todo en una misma línea
 ```js
 var edad = parseInt(prompt('Cuantos años tienes?'));
 // la función prompt se ejecuta primero, devolviendo un string con el valor ingresado por el usuario
 // luego se llama a la función parseInt, con el string devuelto por la función prompt
 ```
 
-> Se puede ejecutar una función adentro de los parentesis de un llamado a otra función. En realidad se puede ejecutar una función en cualquier lugar del código.
+> Se puede ejecutar una función adentro de los paréntesis de un llamado a otra función. En realidad se puede ejecutar una función en cualquier lugar del código.
 
-Si ya pudiste pedirle la edad al usuario, y guardarla en una variale. Sigamos con el siguiente ejercicio.
+Si ya pudiste pedirle la edad al usuario, y guardarla en una variable. Sigamos con el siguiente ejercicio.

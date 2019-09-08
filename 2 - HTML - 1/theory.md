@@ -1,4 +1,4 @@
-Como habiamos dicho antes, HTML es el lenguaje de marcado que nos permite definir la estructura y el contenido de nuestra página web. Todo lo que ves en una página, son elementos HTML.
+Como habíamos dicho antes, HTML es el lenguaje de marcado que nos permite definir la estructura y el contenido de nuestra página web. Todo lo que ves en una página, son elementos HTML.
 
 Se basa en etiquetas, que generalmente se abren y se cierran.
 

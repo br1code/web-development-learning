@@ -4,7 +4,7 @@ Perfecto, la página ahora se ve hermosa. (?????)
 
 Quiero que le agreguemos un pequeño mensaje de alerta apenas alguien entre a nuestra página.
 
-En el ejemplo de **Primera Página** que vimos hace un ratito, esto ya lo teniamos resuelto.
+En el ejemplo de **Primera Página** que vimos hace un ratito, esto ya lo teníamos resuelto.
 
 ```js
 // 'alert' es una funcion disponible gracias al navegador. 
@@ -12,6 +12,7 @@ En el ejemplo de **Primera Página** que vimos hace un ratito, esto ya lo teniam
 alert('Que tal?');
 ```
 
-Que carajo es una **Función**? Ya vamos a tener tiempo para entender esto, por ahora quedense con que es una porción de codigo encapsulado en un nombre, el cual tambien puede recibir valores (entre parentesis) para que el comportamiento del codigo ahi dentro sea diferente.
+Que carajo es una **Función**? Ya vamos a tener tiempo para entender esto, por ahora quédense con que es una porción de código encapsulado en un nombre, el cual también puede recibir valores (entre paréntesis) para que el comportamiento del código ahí dentro sea diferente.
 
-Por ejemplo, la funcion alert recibe un texto. Dentro de la función, hay codigo que ejecuta x acciones determinadas para poder mostrar en el navegador un mensaje de alerta, utilizando el valor recibido entre parentesis.
+Por ejemplo, la función alert recibe un texto. Dentro de la función, hay código que ejecuta x acciones determinadas para poder mostrar en el navegador un mensaje de alerta, utilizando el valor recibido entre paréntesis.
+

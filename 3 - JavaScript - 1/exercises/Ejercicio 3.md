@@ -16,7 +16,7 @@ Permiten que se ejecute determinado código según una o más condiciones.
 
 La **Estructura de Control** mas común es el **if**.
 
-Un **if** ejecuta una porcion de código si una condición especificada es evaluada como ``true`` (verdadera)
+Un **if** ejecuta una porción de código si una condición especificada es evaluada como ``true`` (verdadera)
 
 Ejemplo
 
@@ -43,7 +43,7 @@ if (3 > 5) {
 // la condición devolvió false, por lo tanto NO ejecuta la función alert
 ```
 
-> Practicar escribiendo estas sentencias **if**, ya que suelen generar prolemas por olvidarse un parentesis o etc.
+> Practicar escribiendo estas sentencias **if**, ya que suelen generar problemas por olvidarse un paréntesis o etc.
 
 A la estructura **if**, también la puede seguir un **else** (sino).
 

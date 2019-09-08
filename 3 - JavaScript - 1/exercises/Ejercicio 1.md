@@ -4,7 +4,7 @@ Crear una página web, sin contenido. Ya que será utilizada para prácticar un 
 
 Crea el archivo Javascript y vinculalo a tu página web. (Ver ejemplo del primer módulo).
 
-A continuación, pidele al usuario que ingrese su nombre.
+A continuación, pídele al usuario que ingrese su nombre.
 
 Ayuda:
 
