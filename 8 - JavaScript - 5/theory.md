@@ -652,7 +652,7 @@ Ahora ya con **la lógica de calcular el promedio** separada en una función, po
 var listaDeNotas = obtenerNotas();
 
 // Calculamos el promedio pasando como argumento nuestra lista creada
-var promedio = calcularPromedio(listaDeNotas);
+var promedio = calcularPromedioNotas(listaDeNotas);
 alert('El promedio de ' + listaDeNotas.length + ' notas es: ' + promedio);
 
 // FUNCIONES -------------------
@@ -720,7 +720,7 @@ Perfecto! Ahora que tenemos la lógica de **obtener la nota mayor** separada en 
 var listaDeNotas = obtenerNotas();
 
 // Calculamos el promedio pasando como argumento nuestra lista creada
-var promedio = calcularPromedio(listaDeNotas);
+var promedio = calcularPromedioNotas(listaDeNotas);
 alert('El promedio de ' + listaDeNotas.length + ' notas es: ' + promedio);
 
 // Obtenemos la nota mayor pasando como argumento nuestra lista creada
@@ -786,7 +786,7 @@ Noten que "limpio" quedó el código ahora. Ahora a simple vista nuestro código
 var listaDeNotas = obtenerNotas();
 
 // Calculamos el promedio pasando como argumento nuestra lista creada
-var promedio = calcularPromedio(listaDeNotas);
+var promedio = calcularPromedioNotas(listaDeNotas);
 alert('El promedio de ' + listaDeNotas.length + ' notas es: ' + promedio);
 
 // Obtenemos la nota mayor pasando como argumento nuestra lista creada
