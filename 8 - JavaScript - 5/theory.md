@@ -520,7 +520,7 @@ alert('La mayor nota ingresada es: ' + notaMayor);
 
 Bueno, este ejemplo parece muy largo pero es bastante simple. A simple vista podemos notar que este código tiene tres partes principales:
 
-- El usuario puede ingresar notas de exámenes, uno a uno. Cuando ingresa el número ``0``, el programa deja de pedirle mas notas. Las notas se guardan en una lista. También se va almacenando el total de las notas.
+- El usuario puede ingresar notas de exámenes, uno a uno. Cuando ingresa el número ``0``, el programa deja de pedirle mas notas. Las notas se guardan en una lista.
 
 - Se calcula el promedio de todas las notas, y se lo muestra con un mensaje.
 - Se calcula la nota mayor y se la muestra con un mensaje.
