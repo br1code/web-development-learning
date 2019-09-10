@@ -36,16 +36,16 @@ while (condicionAEvaluar) {
 
 > "Mientras x condición sea verdadera, ejecutar este código"
 
-Este bucle se inicia con la palabra ``while``, seguido de dos parentesis, seguido de dos llaves;
+Este bucle se inicia con la palabra ``while``, seguido de dos paréntesis, seguido de dos llaves;
 
-Dentro de los dos parentesis va una **condición**.
+Dentro de los dos paréntesis va una **condición**.
 
 Dentro de las dos llaves, va las declaraciones y ejecuciones de código.
 
 El proceso del bucle ``while`` a nivel de ejecución (a medida que se va ejecutando) es el siguiente:
 
-1 - Se llega a la linea donde está el while.
-2 - Se evalúa la condición que está entre los dos parentesis.
+1 - Se llega a la línea donde está el while.
+2 - Se evalúa la condición que está entre los dos paréntesis.
 3 - Si el resultado es **true**, ingresar adentro de las dos llaves para ejecutar el código y volver al punto 2.
 4 - Si el resultado es **false**, dar como terminado el ``while`` y seguir con el código que haya luego del mismo.
 
@@ -63,18 +63,18 @@ alert('ke wea hermano');
 ```
 
 - Se define una variable ``numero`` con valor ``0``.
-- Se llega a la linea donde comienza el ``while``.
-- Se evalua la condición definida dentro de los dos parentesis:
+- Se llega a la línea donde comienza el ``while``.
+- Se evalúa la condición definida dentro de los dos paréntesis:
     - ``numero < 2`` numero actualmente tiene como valor ``0``. Por lo tanto: ``0 < 2`` Cero es menor que Dos? = ``true``
 - La condición devolvió ``true``, por lo tanto se ejecuta todo el código definido dentro de las llaves:
     - Se ejecuta la función ``alert``, mostrando el valor de la variable ``numero``. El cual es ``0``.
     - Se le suma ``1`` a la variable ``numero``, teniendo ahora como valor ``1``.
-- Se vuelve a evaluar la condición definida dentro de los dos parentesis:
+- Se vuelve a evaluar la condición definida dentro de los dos paréntesis:
     - ``numero < 2`` numero actualmente tiene como valor ``1``. Por lo tanto: ``1 < 2`` Uno es menor que Dos? = ``true``
 - La condición devolvió ``true``, por lo tanto se ejecuta todo el código definido dentro de las llaves:
     - Se ejecuta la función ``alert``, mostrando el valor de la variable ``numero``. El cual es ``1``.
     - Se le suma ``1`` a la variable ``numero``, teniendo ahora como valor ``2``.
-- Se vuelve a evaluar la condición definida dentro de los dos parentesis:
+- Se vuelve a evaluar la condición definida dentro de los dos paréntesis:
     - ``numero < 2`` numero actualmente tiene como valor ``2``. Por lo tanto: ``2 < 2`` Dos es menor que Dos? = ``false``
 - La condición devolvió ``false``, se da como finalizado el bucle ``while``.
 - Luego de finalizar el ``while``, el código debe seguir. Por último se ejecuta el ``alert`` con el mensaje 'ke wea hermano'.
@@ -85,7 +85,7 @@ De lo único que hay que asegurarse siempre es evitar los **bucles infinitos**. 
 
 Crear un **bucle infinito** significa crear un bucle en el cual la condición **SIEMPRE** de como resultado true. 
 
-Por eso mismo en el ejemplo de recién, en cada iteración del bucle le sumamos ``1`` a nuestro contador. Asegurandonos de que en algún momento el bucle llegue a ``2``, provocando que ``2 < 2`` de como resultado ``false`` y a su vez de como finalizado el bucle.
+Por eso mismo en el ejemplo de recién, en cada iteración del bucle le sumamos ``1`` a nuestro contador. Asegurándonos de que en algún momento el bucle llegue a ``2``, provocando que ``2 < 2`` de como resultado ``false`` y a su vez de como finalizado el bucle.
 
 ### Bucle ``for``
 
@@ -136,7 +136,7 @@ for (var index = 0; index < 2; index++) {
 
 El proceso del bucle ``for`` a nivel de ejecución (a medida que se va ejecutando) es el siguiente:
 
-1 - Se llega a la linea donde está el ``for``.
+1 - Se llega a la línea donde está el ``for``.
 2 - Se define la variable contador (**primera parte del ``for``**).
 3 - Se evalúa la condición. (**segunda parte del ``for``**)
 4 - Si el resultado es **true**, ingresar adentro de las dos llaves para ejecutar el código, luego aumentarle ``1`` al contador (**tercera parte del ``for``**) y volver al punto 3.
