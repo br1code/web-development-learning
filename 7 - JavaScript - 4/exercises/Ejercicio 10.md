@@ -11,6 +11,11 @@ Es tu primer día y tu jefe te dejó solo una advertencia:
 > - Martin
 > - Gonzalo
 > - Cristian
+> - Juan
+> - Bruno
+> - Manuel
+> - Alberto
+> - Nicolas
 
 Empieza tu turno, tienes que ir atendiendo a las personas y preguntarles su nombre, una por una.
 
