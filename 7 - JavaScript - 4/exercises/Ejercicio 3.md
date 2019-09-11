@@ -19,7 +19,7 @@ Ayuda:
 >
 > Para obtener la longitud de un **array**, utilizamos la propiedad ``length``.
 >
-> Para obtener la suma de los elementos de un **array**, tendrás que implementar la lógica por vos mismo. Osea, recorrer los elementos del array e ir sumandolos en una variable.
+> Para obtener la suma de los elementos de un **array**, tendrás que implementar la lógica por vos mismo. O sea, recorrer los elementos del array e ir sumándolos en una variable.
 
 
 

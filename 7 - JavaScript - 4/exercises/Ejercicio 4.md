@@ -2,7 +2,7 @@
 
 #### En una página web sin contenido, realizar la siguiente consigna:
 
-Teniendo elsiguiente **array** de productos en stock:
+Teniendo el siguiente **array** de productos en stock:
 
 ```js
 var productos = ['pepsi', 'monster', 'doritos', 'cheddar']

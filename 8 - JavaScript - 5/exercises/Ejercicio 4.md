@@ -4,6 +4,6 @@
 
 Crear una función llamada ``saludar``, que muestre un saludo con un ``alert``.
 
-Crear otra función llamada ``llamandoASaludar``. Esta función no debe recibir ningun **argumento** y lo único que tiene que hacer es llamar a la función ``saludar``.
+Crear otra función llamada ``llamandoASaludar``. Esta función no debe recibir ningún **argumento** y lo único que tiene que hacer es llamar a la función ``saludar``.
 
 Luego ejecutar la función ``llamandoASaludar``.
