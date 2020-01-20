@@ -35,4 +35,4 @@ Tenemos un pequeño problema. Si el usuario intenta hacer una división y alguno
 
 - Agregar una validación en nuestro ``switch``: si el usuario intenta hacer una división por ``0``, mostrar un mensaje con el texto ``'No es posible dividir por cero'``.
 
-Tenemos un segundo pequeño problema. Si el usuario intenta hacer una multiplicación y alguno de los dos números es ``0``, nuestro codigo deberia devolver ``5``, ya que cualquier numero multiplicado por ``0`` da como resultado ``0``
+Tenemos un segundo pequeño problema. Si el usuario intenta hacer una multiplicación y alguno de los dos números es ``0``, nuestro codigo deberia devolver ``0``, ya que cualquier numero multiplicado por ``0`` da como resultado ``0``
